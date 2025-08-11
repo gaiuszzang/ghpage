@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>설문조사 링크</title>
+<script>
+  function goRandomLink() {
+    const links = [
+      "https://acanel.xyz",
+      "https://groovin.io"
+    ];
+    const randomIndex = Math.floor(Math.random() * links.length);
+    window.location.href = links[randomIndex];
+  }
+</script>
+</head>
+<body onload="goRandomLink()">
+</body>
+</html>
